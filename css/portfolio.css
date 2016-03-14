@@ -22,6 +22,7 @@ html {
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   transition: 0.2s;
+  cursor: pointer;
   height: 20em;
   margin-top: 2em;
   border: 3px solid black;
@@ -88,5 +89,20 @@ html {
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     transition: 0.3s; }
+    #Portfolio .image .overlay h2 {
+      opacity: 0;
+      color: white;
+      position: absolute;
+      border-bottom: 3px solid white;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%);
+      font-family: Open Sans Condensed;
+      font-weight: 300; }
     #Portfolio .image .overlay:hover {
       background: rgba(0, 0, 0, 0.4); }
+      #Portfolio .image .overlay:hover h2 {
+        opacity: 1; }
