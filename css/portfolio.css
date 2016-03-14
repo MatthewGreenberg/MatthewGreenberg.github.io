@@ -1,0 +1,92 @@
+@import url(../bower_components/animate.css/animate.css);
+@import url(../bower_components/normalize-css/normalize.css);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+#Portfolio h1 {
+  color: black;
+  text-align: center;
+  font-size: 4em; }
+#Portfolio .images {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  #Portfolio .images::after {
+    clear: both;
+    content: "";
+    display: table; }
+#Portfolio .image {
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+  height: 20em;
+  margin-top: 2em;
+  border: 3px solid black;
+  display: flex;
+  background: url(../images/dude.jpg) no-repeat top center;
+  background-size: cover;
+  position: relative; }
+  #Portfolio .image:nth-child(2) {
+    background: url(../images/bird.jpg) no-repeat center center;
+    background-size: cover; }
+  #Portfolio .image:nth-child(3) {
+    background: url(../images/eyes.jpg) no-repeat center center;
+    background-size: cover; }
+  #Portfolio .image:nth-child(4) {
+    background: url(../images/lowpoly.jpg) no-repeat center center;
+    background-size: cover; }
+  #Portfolio .image:nth-child(5) {
+    background: url(../images/amppedal.jpg) no-repeat center center;
+    background-size: cover; }
+  #Portfolio .image:nth-child(6) {
+    background: url(../images/tape-final.jpg) no-repeat center center;
+    background-size: cover; }
+  @media screen and (min-width: 950px) {
+    #Portfolio .image {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 31.7615656014%; }
+      #Portfolio .image:last-child {
+        margin-right: 0; }
+      #Portfolio .image:nth-child(3n) {
+        margin-right: 0; }
+      #Portfolio .image:nth-child(3n+1) {
+        clear: left; } }
+  @media screen and (max-width: 950px) {
+    #Portfolio .image {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 48.821174201%; }
+      #Portfolio .image:last-child {
+        margin-right: 0; }
+      #Portfolio .image:nth-child(2n) {
+        margin-right: 0; }
+      #Portfolio .image:nth-child(2n+1) {
+        clear: left; } }
+  @media screen and (max-width: 650px) {
+    #Portfolio .image {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%; }
+      #Portfolio .image:last-child {
+        margin-right: 0; }
+      #Portfolio .image:nth-child(1n) {
+        margin-right: 0; }
+      #Portfolio .image:nth-child(1n+1) {
+        clear: left; } }
+  #Portfolio .image .overlay {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s; }
+    #Portfolio .image .overlay:hover {
+      background: rgba(0, 0, 0, 0.4); }

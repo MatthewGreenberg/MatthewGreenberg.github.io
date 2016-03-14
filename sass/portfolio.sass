@@ -1,0 +1,58 @@
+@import bourbon
+@import neat
+@import "../bower_components/animate.css/animate.css"
+@import "../bower_components/normalize-css/normalize.css"
+
+
+#Portfolio
+  h1
+    color: black
+    text-align: center
+    font-size: 4em
+
+  .images
+    +outer-container(90%)
+  .image
+    +transition(0.2s)
+    height: 20em
+    margin-top: 2em
+    border: 3px solid black
+    display: flex
+    background: url(../images/dude.jpg) no-repeat top center
+    background-size: cover
+    position: relative
+    &:nth-child(2)
+      background: url(../images/bird.jpg) no-repeat center center
+      background-size: cover
+    &:nth-child(3)
+      background: url(../images/eyes.jpg) no-repeat center center
+      background-size: cover
+    &:nth-child(4)
+      background: url(../images/lowpoly.jpg) no-repeat center center
+      background-size: cover
+    &:nth-child(5)
+      background: url(../images/amppedal.jpg) no-repeat center center
+      background-size: cover
+    &:nth-child(6)
+      background: url(../images/tape-final.jpg) no-repeat center center
+      background-size: cover
+    +media(min-width 950px)
+      +span-columns(4)
+      +omega(3n)
+
+    +media(max-width 950px)
+      +span-columns(6)
+      +omega(2n)
+
+    +media(max-width 650px)
+      +span-columns(12)
+      +omega(1n)
+
+    .overlay
+      background: rgba(0,0,0,0.0)
+      height: 100%
+      width: 100%
+      position: absolute
+      +transition(0.3s)
+      &:hover
+        background: rgba(0,0,0,0.4)
