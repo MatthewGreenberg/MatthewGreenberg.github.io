@@ -1,0 +1,33 @@
+@import bourbon
+@import neat
+@import "../bower_components/animate.css/animate.css"
+@import "../bower_components/normalize-css/normalize.css"
+
+
+
++keyframes(bounce)
+  0%
+    +transform(translateY(0px))
+  50%
+    +transform(translateY(10px))
+  100%
+    +transform(translateY(0px))
+#header
+  text-align: center
+  text-transform: uppercase
+  color: lightblue
+  font-family: Lobster
+  font-size: 4em
+  text-shadow: 2px 3px 3px grey
+  +animation(bounce 0.7s infinite linear)
+.box
+  +transform(translateY(-50%) translateX(-50%))
+  position: absolute
+  left: 50%
+  top: 50%
+  border: 3px solid black
+  width: 30em
+  height: 30em
+  margin-top: 2em
+  box-shadow: 6px 4px 0px grey
+  +animation(fadeIn 2s)

@@ -1,0 +1,69 @@
+@import url(../bower_components/animate.css/animate.css);
+@import url(../bower_components/normalize-css/normalize.css);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0px); }
+  50% {
+    -webkit-transform: translateY(10px); }
+  100% {
+    -webkit-transform: translateY(0px); } }
+@-moz-keyframes bounce {
+  0% {
+    -moz-transform: translateY(0px); }
+  50% {
+    -moz-transform: translateY(10px); }
+  100% {
+    -moz-transform: translateY(0px); } }
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); }
+  50% {
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px); }
+  100% {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px); } }
+#header {
+  text-align: center;
+  text-transform: uppercase;
+  color: lightblue;
+  font-family: Lobster;
+  font-size: 4em;
+  text-shadow: 2px 3px 3px grey;
+  -webkit-animation: bounce 0.7s infinite linear;
+  -moz-animation: bounce 0.7s infinite linear;
+  animation: bounce 0.7s infinite linear; }
+
+.box {
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -moz-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  -o-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 3px solid black;
+  width: 30em;
+  height: 30em;
+  margin-top: 2em;
+  box-shadow: 6px 4px 0px grey;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  animation: fadeIn 2s; }

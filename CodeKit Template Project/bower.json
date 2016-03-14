@@ -1,0 +1,23 @@
+{
+  "name": "codekit",
+  "authors": [
+    "MatthewGreenberg <mattcgreenberg@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize-css": "~3.0.3",
+    "animate.css": "~3.4.0"
+  }
+}

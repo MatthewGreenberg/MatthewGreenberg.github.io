@@ -1,0 +1,14 @@
+@import url(../bower_components/animate.css/animate.css);
+@import url(../bower_components/normalize-css/normalize.css);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+#header {
+  text-align: center;
+  text-transform: uppercase;
+  color: #5ca9da;
+  font-family: Montserrat;
+  font-size: 4em; }
