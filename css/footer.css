@@ -1,0 +1,16 @@
+@import url(../bower_components/animate.css/animate.css);
+@import url(../bower_components/normalize-css/normalize.css);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+#nav {
+  position: fixed;
+  bottom: 0%;
+  height: 10vh;
+  background: #333;
+  width: 100%; }
+  #nav h1 {
+    color: red; }
