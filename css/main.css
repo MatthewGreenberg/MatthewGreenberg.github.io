@@ -6,9 +6,22 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-#header {
-  text-align: center;
-  text-transform: uppercase;
-  color: #5ca9da;
-  font-family: Montserrat;
-  font-size: 4em; }
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%; }
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -142px; }
+  .wrapper .home #header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2C3E50;
+    font-family: Montserrat;
+    font-size: 4em; }
+  .wrapper .home #sub-title {
+    text-align: center;
+    color: #2C3E50;
+    margin-top: -1.5em; }

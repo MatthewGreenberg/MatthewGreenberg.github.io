@@ -7,9 +7,14 @@ html(lang="en")
     title
       | Matt Greenberg
   body
-    h1#header Practice Page
-    a(href="/portfolio")
-      |Portfolio
+    include includes/_nav.jade
+    .wrapper 
+      .home
+        h1#header Matt Greenberg
+        h3#sub-title Creator of Cool Shit
+      
+        .content
+  
     
-  include includes/_footer.jade
+include includes/_footer.jade
     
