@@ -3,6 +3,9 @@
 @import "../bower_components/animate.css/animate.css"
 @import "../bower_components/normalize-css/normalize.css"
 
+$blue: #2C3E50
+$green: #18BC9C
+
 
 #Portfolio
   +animation(fadeIn 1s)
@@ -42,14 +45,14 @@
     top: 7.5%
     left: 2%
   h1
-    color: #333
+    color: $blue
     text-align: center
     font-size: 4em
   hr
     width: 80%
-    color: #333
+    color: #2C3E50
     height: 0.5em
-    background: #333
+    background: $blue
     border: none
     margin-top: -1.5em
     border-radius: 20%
@@ -155,9 +158,19 @@
         font-family: Open Sans Condensed
         font-weight: 300
         +transition(0.3s)
+        text-align: center
         &.active
           position: relative
           font-size: 5em
+
+        i
+          color: white
+          margin-top: 3em
+          font-size: 1.1em
+          position: absolute
+          left: 50%
+          +transform(translateX(-50%))
+
 
 
       &:hover
