@@ -1,10 +1,5 @@
 #@codekit-prepend "../bower_components/jquery/dist/jquery.js"
-img = new TimelineLite()
 nav = new TimelineLite()
-staggerImages = ->
-  img.staggerFrom ".image", 1,
-    scale: 0
-  ,0.2
 
 staggerMenu = ->
   nav.staggerTo "nav > ul > li", 0.6,
@@ -13,7 +8,6 @@ staggerMenu = ->
 
 
 $ ->
-  staggerImages()
   $(".image").click ->
     $(@).addClass("active")
     $(".page-overlay").addClass("active")
