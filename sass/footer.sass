@@ -3,12 +3,33 @@
 @import "../bower_components/animate.css/animate.css"
 @import "../bower_components/normalize-css/normalize.css"
 
+$blue: #2C3E50
+$green: #18BC9C
 
-#nav
-  position: fixed
-  bottom: 0%
-  height: 10vh
-  background: #333
+#footer
+  position: relative
+  bottom: -10%
+  margin-top: 8em
+  height: 15vh
+  background: $blue
   width: 100%
   h1
-    color: red
+    color: rgba(255,255,255,0.7)
+    text-align: center
+    font-size: 1.5em
+    padding-top: 0.75em
+
+  .social
+    position: absolute
+    left: 50%
+    +transform(translateX(-50%))
+    i
+      margin: 0 0.8em
+      font-size: 1.3em
+      display: inline-block
+      position: relative
+      color: rgba(255,255,255,0.7)
+      +transition(0.3s)
+      &:hover
+        color: white
+        +transform(rotate(30deg))

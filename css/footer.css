@@ -6,11 +6,39 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-#nav {
-  position: fixed;
-  bottom: 0%;
-  height: 10vh;
-  background: #333;
+#footer {
+  position: relative;
+  bottom: -10%;
+  margin-top: 8em;
+  height: 15vh;
+  background: #2C3E50;
   width: 100%; }
-  #nav h1 {
-    color: red; }
+  #footer h1 {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 0.75em; }
+  #footer .social {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%); }
+    #footer .social i {
+      margin: 0 0.8em;
+      font-size: 1.3em;
+      display: inline-block;
+      position: relative;
+      color: rgba(255, 255, 255, 0.7);
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s; }
+      #footer .social i:hover {
+        color: white;
+        -webkit-transform: rotate(30deg);
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -o-transform: rotate(30deg);
+        transform: rotate(30deg); }
