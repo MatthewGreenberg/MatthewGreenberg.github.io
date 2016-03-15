@@ -9,7 +9,6 @@ html {
 #footer {
   position: relative;
   bottom: -10%;
-  margin-top: 8em;
   height: 15vh;
   background: #2C3E50;
   width: 100%; }
@@ -17,7 +16,8 @@ html {
     color: rgba(255, 255, 255, 0.7);
     text-align: center;
     font-size: 1.5em;
-    padding-top: 0.75em; }
+    padding-top: 0.75em;
+    font-family: Montserrat; }
   #footer .social {
     position: absolute;
     left: 50%;
@@ -25,7 +25,8 @@ html {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    transform: translateX(-50%); }
+    transform: translateX(-50%);
+    font-family: Montserrat; }
     #footer .social i {
       margin: 0 0.8em;
       font-size: 1.3em;

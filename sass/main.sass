@@ -11,6 +11,7 @@ $green: #18BC9C
 
 html, body
   height: 100%
+  font-family: Montserrat
 
 .wrapper
   min-height: 100%
@@ -28,8 +29,9 @@ html, body
       font-size: 2.5em
       color: white
       padding-top: 1.1em
+      font-family: Montserrat
 
-  .content
+  .content1
     height: 40em
     background: $green
     width: 100%
@@ -51,3 +53,66 @@ html, body
       text-align: center
       font-size: 1.5em
       padding-top: 16.5em
+  .content2
+    height: 40em
+    background: white
+    width: 100%
+    +outer-container(70%)
+
+    h1
+      text-align: center
+      font-size: 3em
+      text-transform: uppercase
+      color: $blue
+    h3
+      position: absolute
+      left: 50%
+      +transform(translateX(-50%))
+      margin-top: -1.5em
+
+    .project
+      height: 15em
+      // border: 3px solid $blue
+      background: url(../images/nike.png) no-repeat center center
+      background-size: cover
+      border-radius: 10px
+      &:nth-child(3)
+        background: url(../images/tackleimpossible.png) no-repeat center center
+        background-size: cover
+      &:nth-child(4)
+        background: url(../images/yo-gotti.png) no-repeat center center
+        background-size: cover
+      &:nth-child(5)
+        background: url(../images/cxh.png) no-repeat center center
+        background-size: cover
+      +media(min-width 600px)
+        +span-columns(6)
+        +omega(2n)
+        margin-top: 2em
+      +media(max-width 600px)
+        +span-columns(12)
+        +omega(n)
+        margin-top: 1em
+
+
+  .content3
+    height: 40em
+    background: $green
+    width: 100%
+
+    h1
+      color: white
+      text-align: center
+      text-transform: uppercase
+      padding-top: 1.5em
+      font-size: 3em
+      font-family: Montserrat
+    p
+      color: white
+      font-size: 1.3em
+      padding: 0 25%
+      line-height: 1.3em
+      font-family: Montserrat
+
+      span
+        color: $blue

@@ -3731,6 +3731,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/cxh.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.09251e+06,
+		"inputAbbreviatedPath": "\/images\/cxh.png",
+		"outputAbbreviatedPath": "\/images\/cxh.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/dude.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3764,6 +3775,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/nike.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.04445e+06,
+		"inputAbbreviatedPath": "\/images\/nike.png",
+		"outputAbbreviatedPath": "\/images\/nike.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/profile1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3775,6 +3797,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/tackleimpossible.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 315089,
+		"inputAbbreviatedPath": "\/images\/tackleimpossible.png",
+		"outputAbbreviatedPath": "\/images\/tackleimpossible.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/tape-final.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3782,6 +3815,17 @@
 		"initialSize": 644309,
 		"inputAbbreviatedPath": "\/images\/tape-final.jpg",
 		"outputAbbreviatedPath": "\/images\/tape-final.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/yo-gotti.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.10863e+06,
+		"inputAbbreviatedPath": "\/images\/yo-gotti.png",
+		"outputAbbreviatedPath": "\/images\/yo-gotti.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
