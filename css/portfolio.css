@@ -18,7 +18,8 @@ html, body {
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s;
   min-height: 100%;
-  margin-bottom: -142px; }
+  margin-bottom: -142px;
+  margin-bottom: -4em; }
   .portfolio .page-overlay {
     position: fixed;
     width: 100%;

@@ -18,7 +18,7 @@ $green: #18BC9C
   .nav-overlay
     position: fixed
     top: 0
-    left: 0 
+    left: 0
     height: 100%
     width: 100%
     background: rgba(44,62,80,0.9)
@@ -38,14 +38,16 @@ $green: #18BC9C
       padding: 3em
 
       .exit
-        color: rgba(255,255,255,0.8)
+        color: rgba(255,255,255,0.6)
         font-size: 3em
         position: relative
         left: 75%
         padding-top: -1em
         cursor: pointer
+        +transition(0.2s)
         &:hover
           color: white
+
 
 
       ul
@@ -60,4 +62,5 @@ $green: #18BC9C
 
             &:hover
               color: white
+
               border-bottom: 4px solid rgba(255,255,255,0.8)
