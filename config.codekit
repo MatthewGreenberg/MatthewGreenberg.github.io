@@ -924,6 +924,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/jquery\/src\/attributes\/min\/attr-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/attr-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/min\/attr-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/src\/attributes\/min\/classes-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/classes-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/min\/classes-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/jquery\/src\/attributes\/prop.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1199,6 +1221,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/jquery\/src\/data\/min\/Data-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/Data-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/min\/Data-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/jquery\/src\/data\/var\/data_priv.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1414,6 +1447,50 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/var\/min\/rcheckableType-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/src\/min\/ajax-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/ajax-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/min\/ajax-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/src\/min\/callbacks-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/callbacks-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/min\/callbacks-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/src\/min\/data-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/data-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/min\/data-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/src\/min\/event-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/event-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/min\/event-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2689,6 +2766,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/CodeKit Template Project\/bower_components\/jquery\/src\/attributes\/min\/attr-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/attributes\/min\/attr-min.js",
+		"outputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/attributes\/min\/min\/attr-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/CodeKit Template Project\/bower_components\/jquery\/src\/attributes\/min\/classes-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/attributes\/min\/classes-min.js",
+		"outputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/attributes\/min\/min\/classes-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/CodeKit Template Project\/bower_components\/jquery\/src\/attributes\/prop.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2964,6 +3063,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/CodeKit Template Project\/bower_components\/jquery\/src\/data\/min\/Data-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/data\/min\/Data-min.js",
+		"outputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/data\/min\/min\/Data-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/CodeKit Template Project\/bower_components\/jquery\/src\/data\/var\/data_priv.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3179,6 +3289,50 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js",
 		"outputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/manipulation\/var\/min\/rcheckableType-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/ajax-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/ajax-min.js",
+		"outputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/min\/ajax-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/callbacks-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/callbacks-min.js",
+		"outputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/min\/callbacks-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/data-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/data-min.js",
+		"outputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/min\/data-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/event-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/event-min.js",
+		"outputAbbreviatedPath": "\/CodeKit Template Project\/bower_components\/jquery\/src\/min\/min\/event-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3720,13 +3874,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/bird.jpg": {
-		"fileType": 16384,
+	"\/images\/bird.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.02692e+06,
-		"inputAbbreviatedPath": "\/images\/bird.jpg",
-		"outputAbbreviatedPath": "\/images\/bird.jpg",
+		"initialSize": 233591,
+		"inputAbbreviatedPath": "\/images\/bird.png",
+		"outputAbbreviatedPath": "\/images\/bird.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3764,6 +3918,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115247,
+		"inputAbbreviatedPath": "\/images\/logo.png",
+		"outputAbbreviatedPath": "\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/lowpoly.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3771,6 +3936,17 @@
 		"initialSize": 257338,
 		"inputAbbreviatedPath": "\/images\/lowpoly.jpg",
 		"outputAbbreviatedPath": "\/images\/lowpoly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/meblowup.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 347410,
+		"inputAbbreviatedPath": "\/images\/meblowup.png",
+		"outputAbbreviatedPath": "\/images\/meblowup.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3860,6 +4036,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.jade": {
 		"compileDebug": 1,

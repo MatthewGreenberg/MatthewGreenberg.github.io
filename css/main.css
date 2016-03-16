@@ -11,31 +11,112 @@ html {
 
 html, body {
   height: 100%;
-  font-family: Montserrat; }
+  font-family: Montserrat;
+  background: #F5F5F5; }
 
 .wrapper {
   min-height: 100%;
   margin-bottom: -142px; }
-  .wrapper .home {
-    background: #2C3E50;
-    height: 8em; }
-    .wrapper .home #header {
-      text-align: center;
-      text-transform: uppercase;
-      color: #2C3E50;
-      margin: 0 0 2.3em 0;
-      font-family: Montserrat;
-      font-size: 2.5em;
-      color: white;
-      padding-top: 1.1em;
-      font-family: Montserrat; }
+  .wrapper .header {
+    background: #F5F5F5;
+    height: 8em;
+    border-bottom: 5px solid; }
+    .wrapper .header .logo {
+      background: url(../images/logo.png) no-repeat center center;
+      background-size: cover;
+      width: 8em;
+      height: 8em;
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
   .wrapper .content1 {
-    height: 40em;
-    background: #18BC9C;
+    height: 45em;
     width: 100%;
+    border-bottom: 5px solid;
     position: relative;
-    border-bottom: 8px solid #2C3E50; }
+    overflow: hidden; }
     .wrapper .content1 .me {
+      background: url(../images/meblowup.png) no-repeat center center;
+      background-size: cover;
+      width: 25em;
+      height: 25em;
+      position: absolute;
+      z-index: 10;
+      bottom: -7%;
+      left: 50.5%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+    .wrapper .content1 .creative {
+      position: relative;
+      width: 50%;
+      height: 100%;
+      display: inline-block;
+      background: #18BC9C; }
+      .wrapper .content1 .creative i {
+        font-size: 5em;
+        position: absolute;
+        left: 50%;
+        top: 2em;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      .wrapper .content1 .creative h2 {
+        color: #F5F5F5;
+        text-transform: uppercase;
+        position: absolute;
+        font-size: 3em;
+        left: 50%;
+        top: 40%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%); }
+      .wrapper .content1 .creative p {
+        color: #F5F5F5;
+        padding: 0 20%;
+        margin-top: 21em; }
+  .wrapper .coder {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #F5F5F5;
+    display: inline-block;
+    float: right; }
+    .wrapper .coder i {
+      font-size: 6em;
+      position: absolute;
+      left: 50%;
+      top: 1.65em;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+    .wrapper .coder h2 {
+      position: absolute;
+      font-size: 3em;
+      text-transform: uppercase;
+      left: 50%;
+      top: 40%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -o-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%); }
+    .wrapper .coder p {
+      padding: 0 20%;
+      margin-top: 21em; }
+    .wrapper .coder .me {
       background: url(../images/profile1.png) no-repeat center center;
       background-size: contain;
       height: 15em;
@@ -49,14 +130,14 @@ html, body {
       -ms-transform: translateX(-50%) translateY(-50%);
       -o-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%); }
-    .wrapper .content1 h3 {
-      color: white;
+    .wrapper .coder h3 {
+      color: #F5F5F5;
       text-align: center;
       font-size: 1.5em;
       padding-top: 16.5em; }
   .wrapper .content2 {
     height: 45em;
-    background: white;
+    background: #F5F5F5;
     width: 100%;
     max-width: 70%;
     margin-left: auto;
@@ -69,7 +150,7 @@ html, body {
       text-align: center;
       font-size: 3em;
       text-transform: uppercase;
-      color: #2C3E50; }
+      color: black; }
     .wrapper .content2 h3 {
       position: absolute;
       left: 50%;
@@ -84,7 +165,7 @@ html, body {
       background: url(../images/nike.png) no-repeat center center;
       background-size: cover;
       border-radius: 10px;
-      border: 5px solid #18BC9C;
+      border: 8px solid black;
       cursor: pointer;
       position: relative;
       -webkit-transition: 0.2s;
@@ -133,9 +214,11 @@ html, body {
         background: rgba(0, 0, 0, 0.6); }
       .wrapper .content2 .project:hover .title {
         top: 0%; }
+      .wrapper .content2 .project:hover i {
+        opacity: 1; }
       .wrapper .content2 .project .title {
         position: absolute;
-        color: white;
+        color: #F5F5F5;
         font-family: montserrat;
         left: 50%;
         top: -30%;
@@ -144,25 +227,40 @@ html, body {
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
         transform: translateX(-50%);
-        font-size: 1.2em;
+        font-size: 1.5em;
         margin-top: 1em;
         -webkit-transition: 0.2s;
         -moz-transition: 0.2s;
         transition: 0.2s; }
+      .wrapper .content2 .project i {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 3em;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        opacity: 0;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        transition: 0.2s; }
   .wrapper .content3 {
-    height: 40em;
+    height: 45em;
     background: #18BC9C;
     width: 100%;
-    border-top: 8px solid #2C3E50; }
+    border-top: 5px solid; }
     .wrapper .content3 h1 {
-      color: white;
+      color: #F5F5F5;
       text-align: center;
       text-transform: uppercase;
       padding-top: 1.5em;
       font-size: 3em;
       font-family: Montserrat; }
     .wrapper .content3 p {
-      color: white;
+      color: #F5F5F5;
       font-size: 1.3em;
       padding: 0 25%;
       line-height: 1.3em;

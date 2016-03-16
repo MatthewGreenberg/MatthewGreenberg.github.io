@@ -5,6 +5,7 @@
 
 $blue: #2C3E50
 $green: #18BC9C
+$white: #F5F5F5
 
 *
   margin: 0
@@ -12,31 +13,95 @@ $green: #18BC9C
 html, body
   height: 100%
   font-family: Montserrat
+  background: $white
 
 .wrapper
   min-height: 100%
   margin-bottom: -142px
 
-  .home
-    background: $blue
+  .header
+    background: $white
     height: 8em
-    #header
-      text-align: center
-      text-transform: uppercase
-      color: $blue
-      margin: 0 0 2.3em 0
-      font-family: Montserrat
-      font-size: 2.5em
-      color: white
-      padding-top: 1.1em
-      font-family: Montserrat
+    border-bottom: 5px solid
+    .logo
+      background: url(../images/logo.png) no-repeat center center
+      background-size: cover
+      width: 8em
+      height: 8em
+      position: absolute
+      left: 50%
+      +transform(translateX(-50%))
+
 
   .content1
-    height: 40em
-    background: $green
+    height: 45em
     width: 100%
+    border-bottom: 5px solid
     position: relative
-    border-bottom: 8px solid $blue
+    overflow: hidden
+
+    .me
+      background: url(../images/meblowup.png) no-repeat center center
+      background-size: cover
+      width: 25em
+      height: 25em
+      position: absolute
+      z-index: 10
+      bottom: -7%
+      left: 50.5%
+      +transform(translateX(-50%))
+
+
+    .creative
+      position: relative
+      width: 50%
+      height: 100%
+      display: inline-block
+      background: $green
+      i
+        font-size: 5em
+        position: absolute
+        left: 50%
+        top: 2em
+        +transform(translateX(-50%))
+      h2
+        color: $white
+        text-transform: uppercase
+        position: absolute
+        font-size: 3em
+        left: 50%
+        top: 40%
+        +transform(translateX(-50%) translateY(-50%))
+      p
+        color: $white
+        padding: 0 20%
+        margin-top: 21em
+
+
+
+  .coder
+    position: relative
+    width: 50%
+    height: 100%
+    background: $white
+    display: inline-block
+    float: right
+    i
+      font-size: 6em
+      position: absolute
+      left: 50%
+      top: 1.65em
+      +transform(translateX(-50%))
+    h2
+      position: absolute
+      font-size: 3em
+      text-transform: uppercase
+      left: 50%
+      top: 40%
+      +transform(translateX(-50%) translateY(-50%))
+    p
+      padding: 0 20%
+      margin-top: 21em
 
     .me
       background: url(../images/profile1.png) no-repeat center center
@@ -50,13 +115,13 @@ html, body
       +transform(translateX(-50%) translateY(-50%))
 
     h3
-      color: white
+      color: $white
       text-align: center
       font-size: 1.5em
       padding-top: 16.5em
   .content2
     height: 45em
-    background: white
+    background: $white
     width: 100%
     +outer-container(70%)
 
@@ -64,7 +129,7 @@ html, body
       text-align: center
       font-size: 3em
       text-transform: uppercase
-      color: $blue
+      color: black
     h3
       position: absolute
       left: 50%
@@ -77,7 +142,7 @@ html, body
       background: url(../images/nike.png) no-repeat center center
       background-size: cover
       border-radius: 10px
-      border: 5px solid $green
+      border: 8px solid black
       cursor: pointer
       position: relative
       +transition(0.2s)
@@ -109,36 +174,48 @@ html, body
 
         .title
           top: 0%
+        i
+          opacity: 1
 
 
       .title
         position: absolute
-        color: white
+        color: $white
         font-family: montserrat
         left: 50%
         top: -30%
         +transform(translateX(-50%))
-        font-size: 1.2em
+        font-size: 1.5em
         margin-top: 1em
+        +transition(0.2s)
+
+      i
+        color: rgba(255,255,255,0.8)
+        font-size: 3em
+        position: absolute
+        left: 50%
+        top: 50%
+        +transform(translateX(-50%) translateY(-50%))
+        opacity: 0
         +transition(0.2s)
 
 
 
   .content3
-    height: 40em
+    height: 45em
     background: $green
     width: 100%
-    border-top: 8px solid $blue
+    border-top: 5px solid
 
     h1
-      color: white
+      color: $white
       text-align: center
       text-transform: uppercase
       padding-top: 1.5em
       font-size: 3em
       font-family: Montserrat
     p
-      color: white
+      color: $white
       font-size: 1.3em
       padding: 0 25%
       line-height: 1.3em
