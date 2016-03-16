@@ -10,6 +10,13 @@
     +transform(rotateX(360deg) rotateY(360deg))
   100%
     +transform(rotateX(0deg) rotateY(0deg))
++keyframes(float)
+  0%
+    +transform(translateX(-50%) translateY(-50%))
+  50%
+    +transform(translateX(-50%) translateY(-80%))
+  100%
+    +transform(translateX(-50%) translateY(-50%))
 
 $blue: #2C3E50
 $green: #18BC9C
@@ -329,3 +336,23 @@ html, body
 
       span
         color: $blue
+
+    .back
+      background: $white
+      position: relative
+      left: 50%
+      +transform(translateX(-50%))
+      margin-top: 8em
+      +transition(0.2s)
+      &:hover
+        i
+          color: white
+          +transition(0.2s)
+
+      i
+        position: absolute
+        left: 50%
+        top: 50%
+        +animation(float 1s infinite)
+        font-size: 3em
+        +transition(0.2s)
