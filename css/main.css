@@ -114,7 +114,7 @@ html, body {
         margin-left: 1em;
         cursor: pointer; }
         .wrapper .header .links h3:hover {
-          border-bottom: 2px solid black; }
+          border-bottom: 5px solid black; }
     .wrapper .header #shape {
       position: absolute;
       margin: 0 auto;
