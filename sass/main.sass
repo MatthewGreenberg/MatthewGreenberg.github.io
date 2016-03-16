@@ -77,6 +77,12 @@ html, body
         padding: 0 20%
         margin-top: 21em
 
+        a
+          text-decoration: none
+          +transition(0.2s)
+          &:hover
+            color: #555
+
 
 
   .coder
@@ -123,7 +129,7 @@ html, body
     height: 45em
     background: $white
     width: 100%
-    +outer-container(70%)
+    +outer-container(65%)
 
     h1
       text-align: center
@@ -135,27 +141,18 @@ html, body
       left: 50%
       +transform(translateX(-50%))
       margin-top: -1.5em
-
+    //PROJECTS
     .project
       height: 15em
       // border: 3px solid $blue
-      background: url(../images/nike.png) no-repeat center center
+      background: white
       background-size: cover
       border-radius: 10px
-      border: 8px solid black
+      box-shadow: 0px 0px 3px 2px lightgray
       cursor: pointer
       position: relative
       +transition(0.2s)
       overflow: hidden
-      &:nth-child(3)
-        background: url(../images/tackleimpossible.png) no-repeat top center
-        background-size: cover
-      &:nth-child(4)
-        background: url(../images/yo-gotti.png) no-repeat top center
-        background-size: cover
-      &:nth-child(5)
-        background: url(../images/cxh.png) no-repeat bottom center
-        background-size: cover
       +media(min-width 600px)
         +span-columns(6)
         +omega(2n)
@@ -164,6 +161,38 @@ html, body
         +span-columns(12)
         +omega(n)
         margin-top: 1em
+
+      .image
+        width: 97%
+        margin-top: 0px
+        height: 70%
+        position: relative
+        left: 50%
+        top: 1%
+        +transform(translateX(-50%))
+        z-index: 500
+        background: url(../images/tackleimpossible.png) no-repeat top center
+        background-size: cover
+        border-radius: 10px
+
+      &:nth-child(2)
+        .image
+          background: url(../images/yo-gotti.png) no-repeat top center
+          background-size: cover
+
+      &:nth-child(4)
+        .image
+          background: url(../images/yo-gotti.png) no-repeat top center
+          background-size: cover
+      &:nth-child(5)
+        .image
+          background: url(../images/cxh.png) no-repeat center center
+          background-size: cover
+      &:nth-child(6)
+        .image
+          background: url(../images/nike.png) no-repeat center center
+          background-size: cover
+
 
       &:hover
         .overlay

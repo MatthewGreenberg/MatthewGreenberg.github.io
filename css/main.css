@@ -85,6 +85,13 @@ html, body {
         color: #F5F5F5;
         padding: 0 20%;
         margin-top: 21em; }
+        .wrapper .content1 .creative p a {
+          text-decoration: none;
+          -webkit-transition: 0.2s;
+          -moz-transition: 0.2s;
+          transition: 0.2s; }
+          .wrapper .content1 .creative p a:hover {
+            color: #555; }
   .wrapper .coder {
     position: relative;
     width: 50%;
@@ -139,7 +146,7 @@ html, body {
     height: 45em;
     background: #F5F5F5;
     width: 100%;
-    max-width: 70%;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto; }
     .wrapper .content2::after {
@@ -162,25 +169,16 @@ html, body {
       margin-top: -1.5em; }
     .wrapper .content2 .project {
       height: 15em;
-      background: url(../images/nike.png) no-repeat center center;
+      background: white;
       background-size: cover;
       border-radius: 10px;
-      border: 8px solid black;
+      box-shadow: 0px 0px 3px 2px lightgray;
       cursor: pointer;
       position: relative;
       -webkit-transition: 0.2s;
       -moz-transition: 0.2s;
       transition: 0.2s;
       overflow: hidden; }
-      .wrapper .content2 .project:nth-child(3) {
-        background: url(../images/tackleimpossible.png) no-repeat top center;
-        background-size: cover; }
-      .wrapper .content2 .project:nth-child(4) {
-        background: url(../images/yo-gotti.png) no-repeat top center;
-        background-size: cover; }
-      .wrapper .content2 .project:nth-child(5) {
-        background: url(../images/cxh.png) no-repeat bottom center;
-        background-size: cover; }
       @media screen and (min-width: 600px) {
         .wrapper .content2 .project {
           float: left;
@@ -205,6 +203,34 @@ html, body {
             margin-right: 0; }
           .wrapper .content2 .project:nth-child(n) {
             margin-right: 0; } }
+      .wrapper .content2 .project .image {
+        width: 97%;
+        margin-top: 0px;
+        height: 70%;
+        position: relative;
+        left: 50%;
+        top: 1%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        z-index: 500;
+        background: url(../images/tackleimpossible.png) no-repeat top center;
+        background-size: cover;
+        border-radius: 10px; }
+      .wrapper .content2 .project:nth-child(2) .image {
+        background: url(../images/yo-gotti.png) no-repeat top center;
+        background-size: cover; }
+      .wrapper .content2 .project:nth-child(4) .image {
+        background: url(../images/yo-gotti.png) no-repeat top center;
+        background-size: cover; }
+      .wrapper .content2 .project:nth-child(5) .image {
+        background: url(../images/cxh.png) no-repeat center center;
+        background-size: cover; }
+      .wrapper .content2 .project:nth-child(6) .image {
+        background: url(../images/nike.png) no-repeat center center;
+        background-size: cover; }
       .wrapper .content2 .project:hover .overlay {
         -webkit-transition: 0.2s;
         -moz-transition: 0.2s;
