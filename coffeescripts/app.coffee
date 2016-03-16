@@ -1,4 +1,11 @@
 #@codekit-prepend "../bower_components/jquery/dist/jquery.js"
 $ ->
   $(".project").click ->
-    $(@).addClass("active")  
+    $(@).addClass("active")
+  $('.recent-projects').click ->
+    $('html, body').animate { scrollTop: $('#recent-projects').offset().top }, 1000
+    return
+
+  $('.about').click ->
+    $('html, body').animate { scrollTop: $('#about').offset().top }, 1000
+    return
