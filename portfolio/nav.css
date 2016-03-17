@@ -1,0 +1,67 @@
+@import url(../bower_components/animate.css/animate.css);
+@import url(../bower_components/normalize-css/normalize.css);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+#nav {
+  display: inline-block;
+  position: absolute; }
+  #nav i {
+    font-size: 3em;
+    position: relative;
+    left: 2em;
+    top: 1em; }
+  #nav .nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    display: none; }
+    #nav .nav-overlay.active {
+      display: block;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s;
+      -webkit-animation: fadeIn 1s;
+      -moz-animation: fadeIn 1s;
+      animation: fadeIn 1s; }
+    #nav .nav-overlay .pages {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%);
+      padding: 3em; }
+      #nav .nav-overlay .pages .exit {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 3em;
+        position: relative;
+        left: 75%;
+        padding-top: -1em;
+        cursor: pointer;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        transition: 0.2s; }
+        #nav .nav-overlay .pages .exit:hover {
+          color: white; }
+      #nav .nav-overlay .pages ul {
+        list-style: none; }
+        #nav .nav-overlay .pages ul li a {
+          color: rgba(255, 255, 255, 0.6);
+          text-decoration: none;
+          font-size: 4em;
+          font-family: Montserrat;
+          -webkit-transition: color 0.2s;
+          -moz-transition: color 0.2s;
+          transition: color 0.2s; }
+          #nav .nav-overlay .pages ul li a:hover {
+            color: white; }

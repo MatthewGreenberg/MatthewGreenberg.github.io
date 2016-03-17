@@ -1,0 +1,46 @@
+@import url(../bower_components/animate.css/animate.css);
+@import url(../bower_components/normalize-css/normalize.css);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+#footer {
+  position: relative;
+  border-top: 5px solid;
+  bottom: -10%;
+  height: 15vh;
+  background: #F5F5F5;
+  width: 100%; }
+  #footer h1 {
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 0.75em;
+    font-family: Montserrat; }
+  #footer .social {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-family: Montserrat; }
+    #footer .social i {
+      margin: 0 0.8em;
+      font-size: 1.3em;
+      display: inline-block;
+      position: relative;
+      color: black;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s; }
+      #footer .social i:hover {
+        -webkit-transform: rotate(30deg);
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -o-transform: rotate(30deg);
+        transform: rotate(30deg);
+        color: #18BC9C; }
