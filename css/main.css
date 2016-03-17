@@ -141,10 +141,23 @@ html, body {
       border: 1px solid rgba(255, 255, 255, 0.7);
       background-color: black;
       opacity: 0.7; }
+    .wrapper .header #shape:hover .ft {
+      transform: translateZ(50px);
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s; }
+    .wrapper .header #shape:hover .bk {
+      transform: rotateY(180electric deg) translateZ(50px);
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s; }
     .wrapper .header #shape .ft {
       -webkit-transform: translateZ(25px);
       -moz-transform: translateZ(25px);
-      transform: translateZ(25px); }
+      transform: translateZ(25px);
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s; }
     .wrapper .header #shape .rt {
       -webkit-transform: rotateY(90deg) translateZ(25px);
       -moz-transform: rotateY(90deg) translateZ(25px);

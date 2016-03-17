@@ -18,8 +18,7 @@ html, body {
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s;
   min-height: 100%;
-  margin-bottom: -142px;
-  margin-bottom: -4em; }
+  margin-bottom: -142px; }
   .portfolio .logo {
     background: url(../images/logo.png) no-repeat center center;
     background-size: cover;
