@@ -108,13 +108,33 @@ html, body {
       -moz-transform: translateX(-50%) translateY(-50%);
       -ms-transform: translateX(-50%) translateY(-50%);
       -o-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%); }
+      transform: translateX(-50%) translateY(-50%);
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s; }
+      @media screen and (max-width: 800px) {
+        .wrapper .header .links {
+          left: 90%;
+          width: 300px; } }
+      @media screen and (max-width: 500px) {
+        .wrapper .header .links {
+          left: 95%; } }
       .wrapper .header .links h3 {
         display: inline;
         margin-left: 1em;
         cursor: pointer; }
         .wrapper .header .links h3:hover {
           border-bottom: 5px solid black; }
+        @media screen and (max-width: 1250px) {
+          .wrapper .header .links h3 {
+            font-size: 1em; } }
+        @media screen and (max-width: 800px) {
+          .wrapper .header .links h3 {
+            font-size: 0.8em; } }
+        @media screen and (max-width: 500px) {
+          .wrapper .header .links h3 {
+            font-size: 0.7em;
+            margin-left: 0.5em; } }
     .wrapper .header #shape {
       position: absolute;
       margin: 0 auto;
@@ -147,7 +167,7 @@ html, body {
       -moz-transition: 0.3s;
       transition: 0.3s; }
     .wrapper .header #shape:hover .bk {
-      transform: rotateY(180electric deg) translateZ(50px);
+      transform: rotateY(180deg) translateZ(50px);
       -webkit-transition: 0.3s;
       -moz-transition: 0.3s;
       transition: 0.3s; }
@@ -193,11 +213,22 @@ html, body {
       z-index: 10;
       bottom: -7%;
       left: 50.5%;
+      -webkit-transition: 0.2s;
+      -moz-transition: 0.2s;
+      transition: 0.2s;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
       -o-transform: translateX(-50%);
       transform: translateX(-50%); }
+      @media screen and (max-width: 900px) {
+        .wrapper .content1 .me {
+          -webkit-transform: translateX(-50%) scale(0.8);
+          -moz-transform: translateX(-50%) scale(0.8);
+          -ms-transform: translateX(-50%) scale(0.8);
+          -o-transform: translateX(-50%) scale(0.8);
+          transform: translateX(-50%) scale(0.8);
+          bottom: -12%; } }
     .wrapper .content1 .creative {
       position: relative;
       width: 50%;
@@ -209,11 +240,22 @@ html, body {
         position: absolute;
         left: 50%;
         top: 2em;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        transition: 0.2s;
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
         transform: translateX(-50%); }
+        @media screen and (max-width: 1200px) {
+          .wrapper .content1 .creative i {
+            font-size: 4em;
+            top: 2.7em; } }
+        @media screen and (max-width: 900px) {
+          .wrapper .content1 .creative i {
+            font-size: 3em;
+            top: 4em; } }
       .wrapper .content1 .creative h2 {
         color: #F5F5F5;
         text-transform: uppercase;
@@ -221,15 +263,31 @@ html, body {
         font-size: 3em;
         left: 50%;
         top: 40%;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        transition: 0.3s;
         -webkit-transform: translateX(-50%) translateY(-50%);
         -moz-transform: translateX(-50%) translateY(-50%);
         -ms-transform: translateX(-50%) translateY(-50%);
         -o-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%); }
+        @media screen and (max-width: 1200px) {
+          .wrapper .content1 .creative h2 {
+            font-size: 2.2em; } }
+        @media screen and (max-width: 900px) {
+          .wrapper .content1 .creative h2 {
+            font-size: 1.5em; } }
+        @media screen and (max-width: 620px) {
+          .wrapper .content1 .creative h2 {
+            font-size: 1.2em; } }
       .wrapper .content1 .creative p {
         color: #F5F5F5;
         padding: 0 20%;
         margin-top: 21em; }
+        @media screen and (max-width: 900px) {
+          .wrapper .content1 .creative p {
+            font-size: 0.9em;
+            margin-top: 23em; } }
         .wrapper .content1 .creative p a {
           text-decoration: none;
           -webkit-transition: 0.2s;
@@ -254,20 +312,44 @@ html, body {
       -ms-transform: translateX(-50%);
       -o-transform: translateX(-50%);
       transform: translateX(-50%); }
+      @media screen and (max-width: 1200px) {
+        .wrapper .coder i {
+          font-size: 4em;
+          top: 2.845em; } }
+      @media screen and (max-width: 900px) {
+        .wrapper .coder i {
+          font-size: 3em;
+          top: 4.2em; } }
     .wrapper .coder h2 {
       position: absolute;
       font-size: 3em;
       text-transform: uppercase;
       left: 50%;
       top: 40%;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      transition: 0.3s;
       -webkit-transform: translateX(-50%) translateY(-50%);
       -moz-transform: translateX(-50%) translateY(-50%);
       -ms-transform: translateX(-50%) translateY(-50%);
       -o-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%); }
+      @media screen and (max-width: 1200px) {
+        .wrapper .coder h2 {
+          font-size: 2.2em; } }
+      @media screen and (max-width: 900px) {
+        .wrapper .coder h2 {
+          font-size: 1.5em; } }
+      @media screen and (max-width: 620px) {
+        .wrapper .coder h2 {
+          font-size: 1.2em; } }
     .wrapper .coder p {
       padding: 0 20%;
       margin-top: 21em; }
+      @media screen and (max-width: 900px) {
+        .wrapper .coder p {
+          font-size: 0.9em;
+          margin-top: 23em; } }
     .wrapper .coder .me {
       background: url(../images/profile1.png) no-repeat center center;
       background-size: contain;
@@ -291,6 +373,9 @@ html, body {
     height: 45em;
     background: #F5F5F5;
     width: 100%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
     max-width: 65%;
     margin-left: auto;
     margin-right: auto; }
@@ -298,6 +383,26 @@ html, body {
       clear: both;
       content: "";
       display: table; }
+    @media screen and (max-width: 750px) {
+      .wrapper .content2 {
+        height: 48em;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto; }
+        .wrapper .content2::after {
+          clear: both;
+          content: "";
+          display: table; } }
+    @media screen and (max-width: 600px) {
+      .wrapper .content2 {
+        height: 80em;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto; }
+        .wrapper .content2::after {
+          clear: both;
+          content: "";
+          display: table; } }
     .wrapper .content2 h1 {
       text-align: center;
       font-size: 3em;
@@ -312,6 +417,9 @@ html, body {
       -o-transform: translateX(-50%);
       transform: translateX(-50%);
       margin-top: -1.5em; }
+      @media screen and (max-width: 550px) {
+        .wrapper .content2 h3 {
+          display: none; } }
     .wrapper .content2 .project {
       height: 16em;
       background: white;
@@ -426,6 +534,9 @@ html, body {
     background: #18BC9C;
     width: 100%;
     border-top: 5px solid; }
+    @media screen and (max-width: 800px) {
+      .wrapper .content3 {
+        height: 37em; } }
     .wrapper .content3 h1 {
       color: #F5F5F5;
       text-align: center;
@@ -433,12 +544,19 @@ html, body {
       padding-top: 1.5em;
       font-size: 3em;
       font-family: Montserrat; }
+      @media screen and (max-width: 800px) {
+        .wrapper .content3 h1 {
+          padding-top: 0.5em; } }
     .wrapper .content3 p {
       color: #F5F5F5;
       font-size: 1.3em;
       padding: 0 25%;
       line-height: 1.3em;
       font-family: Montserrat; }
+      @media screen and (max-width: 800px) {
+        .wrapper .content3 p {
+          font-size: 1.1em;
+          padding: 0 15%; } }
       .wrapper .content3 p span {
         color: #2C3E50; }
     .wrapper .content3 .back {
@@ -459,6 +577,13 @@ html, body {
         -webkit-transition: 0.2s;
         -moz-transition: 0.2s;
         transition: 0.2s; }
+      @media screen and (max-width: 900px) {
+        .wrapper .content3 .back {
+          margin-top: 5em; } }
+      @media screen and (max-width: 800px) {
+        .wrapper .content3 .back {
+          margin-top: 6em;
+          font-size: 0.8em; } }
       .wrapper .content3 .back i {
         position: absolute;
         left: 50%;
