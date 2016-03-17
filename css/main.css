@@ -102,7 +102,7 @@ html, body {
       transform: translateX(-50%); }
     .wrapper .header .links {
       position: absolute;
-      left: 70%;
+      left: 72%;
       top: 50%;
       -webkit-transform: translateX(-50%) translateY(-50%);
       -moz-transform: translateX(-50%) translateY(-50%);
