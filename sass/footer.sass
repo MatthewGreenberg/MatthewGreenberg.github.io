@@ -1,0 +1,39 @@
+@import bourbon
+@import neat
+@import "../bower_components/animate.css/animate.css"
+@import "../bower_components/normalize-css/normalize.css"
+
+$blue: #2C3E50
+$green: #18BC9C
+
+
+#footer
+  position: relative
+  border-top: 5px solid
+  bottom: -10%
+  // margin-top: 8em
+  height: 15vh
+  background: #F5F5F5
+  width: 100%
+  h1
+    color: black
+    text-align: center
+    font-size: 1.5em
+    padding-top: 0.75em
+    font-family: Montserrat
+
+  .social
+    position: absolute
+    left: 50%
+    +transform(translateX(-50%))
+    font-family: Montserrat
+    i
+      margin: 0 0.8em
+      font-size: 1.3em
+      display: inline-block
+      position: relative
+      color: black
+      +transition(0.3s)
+      &:hover
+        +transform(rotate(30deg))
+        color: $green

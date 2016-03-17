@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    script(type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js")
+    script(type="text/javascript" src="coffeescripts/nav.js")
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')  
+    link(rel="stylesheet" type="text/css" href="css/nav.css")
+    link( rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300")  
+  
+  #nav
+    i.fa.fa-bars
+    .nav-overlay
+      .pages
+        .exit
+          | &times; 
+        ul
+          li
+            a(href="/").nav-item
+              |Home 
+          li
+            a(href="/portfolio").nav-item
+              |Portfolio 
+  

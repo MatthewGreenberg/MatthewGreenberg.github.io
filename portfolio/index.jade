@@ -1,0 +1,83 @@
+doctype html
+html(lang="en")
+  head
+    script(type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js")
+    script(type="text/javascript" src="coffeescripts/portfolio.js")
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')  
+    link(rel="stylesheet" type="text/css" href="css/portfolio.css")
+    link( rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300")  
+    title
+      | Cinema 4D Portfolio
+  body
+    include ../includes/_nav.jade
+    .portfolio
+      .page-overlay
+        .exit
+          | &times;
+      .logo
+      //- h1#header Cinema 4D
+        
+      .images
+        .image
+          .overlay
+            h2#title
+              |Fuzzy Dude
+            i.fa.fa-search-plus
+          .content
+            h2#content-title 
+              | Fuzzy Dude 
+            h3#technologies 
+              | Cinema 4D | Photoshop 
+        .image
+          .overlay
+            
+            h2#title
+              |Birdy
+            i.fa.fa-search-plus
+          .content
+            h2#content-title 
+              | Birdy
+            h3#technologies 
+              | Cinema 4D | Photoshop   
+        .image
+          .overlay
+            h2#title
+              |Eyes
+            i.fa.fa-search-plus
+          .content
+            h2#content-title 
+              | Eyes
+            h3#technologies 
+              | Cinema 4D | Photoshop 
+        .image
+          .overlay
+            h2#title
+              |Refracted Light
+            i.fa.fa-search-plus
+          .content
+            h2#content-title 
+              | Refracted Light
+            h3#technologies 
+              | Cinema 4D | Photoshop 
+        .image
+          .overlay
+            h2#title
+              |Base Amp
+            i.fa.fa-search-plus
+          .content
+            h2#content-title 
+              | Base Amp
+            h3#technologies 
+              | Cinema 4D | Photoshop 
+        .image   
+          .overlay
+            h2#title
+              |Tape Deck
+            i.fa.fa-search-plus
+          .content
+            h2#content-title 
+              | Tape Deck 
+            h3#technologies 
+              | Cinema 4D | Photoshop 
+
+    include ../includes/_footer.jade

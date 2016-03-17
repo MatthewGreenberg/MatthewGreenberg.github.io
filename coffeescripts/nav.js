@@ -1,0 +1,1 @@
+(function(){$(function(){return $(".fa-bars").click(function(){return $(".nav-overlay").addClass("active")}),$(".exit, .nav-item").click(function(){return $(".nav-overlay").removeClass("active")})})}).call(this);

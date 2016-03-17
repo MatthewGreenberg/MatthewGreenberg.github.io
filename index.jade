@@ -1,0 +1,127 @@
+doctype html
+html(lang="en")
+  head
+    script(type="text/javascript" src="coffeescripts/app.js")
+    link(rel="stylesheet" type="text/css" href="css/main.css")
+    link( rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat")  
+    title
+      | Matt Greenberg
+  body
+    include includes/_nav.jade
+    .wrapper 
+      .header
+        a(href="/portfolio")
+          #shape
+            .ft   
+            .rt     
+            .bk
+            .lt   
+            .tp   
+            .bm
+  
+        .logo
+        .links 
+          h3.recent-projects
+            | Recent Projects
+          h3.about
+            | About
+          
+        
+      
+      .content1
+        .me
+        .creative
+          i.fa.fa-cubes
+          h2
+           | Creative
+          p 
+            | UI/UX Designer with a paassion to make awesome things that are functional and elegant. I dabble in <a href="/portfolio">3D too.<a>
+        .coder
+          i.fa.fa-laptop
+          h2 < / Coder >
+          p
+            | Front End developer. Lover of Sass, Coffescript and Jade. Burgeoning React.js ninja.
+      .content2#recent-projects
+        h1 
+          |Recent Projects 
+        h3 
+          |With The Uprising Creative
+        
+        .project#tackle-impossible
+          .overlay
+          .exit-project
+            | &times;
+          .image
+          .title 
+            | Anheuser-Busch
+          .responsibilities
+            |Front End - React.js - Responsive Optimization
+          .hr 
+            hr
+          .description 
+            | As part of the Uprising Creative, I helped build an interactive board game for rapper Yo Gotti, contributing to the Front-End development as well as the Object Oriented JS structure running the game and leaderboard logic.
+          .url
+            a(href="http://draw.tackleimpossible.com/")
+              | http://draw.tackleimpossible.com/ 
+        .project#yo-gotti
+          .overlay
+          .exit-project
+            | &times;
+          .image
+          .title 
+            | Art of the Hustle
+          .responsibilities
+            |Front End - OOJS - Responsive Optimization 
+          .hr 
+            hr
+          .description 
+            | As part of the Uprising Creative, I helped build an interactive board game for rapper Yo Gotti, contributing to the Front-End development as well as the Object Oriented JS structure running the game and leaderboard logic.
+          .url
+            a(href="http://draw.tackleimpossible.com/")
+              | http://draw.tackleimpossible.com/   
+        .project#cxh
+          .overlay
+          .exit-project
+            | &times;
+          .image
+          .title 
+            | Chloe x Halle
+          .responsibilities
+            |Design - Front End - Responsive Optimization
+          .hr 
+            hr
+          .description 
+            | As part of the Uprising Creative, I helped build an interactive board game for rapper Yo Gotti, contributing to the Front-End development as well as the Object Oriented JS structure running the game and leaderboard logic. 
+          .url
+            a(href="http://draw.tackleimpossible.com/")
+              | http://draw.tackleimpossible.com/  
+        .project#nike
+          .overlay
+          .exit-project
+            | &times;
+          .image 
+          .title 
+            | Nike Tech Knit
+          .responsibilities
+            |Front End - D3.js - Responsive Optimization
+          .hr 
+            hr
+          .description 
+            | As part of the Uprising Creative, I helped build an interactive board game for rapper Yo Gotti, contributing to the Front-End development as well as the Object Oriented JS structure running the game and leaderboard logic. 
+          .url
+            a(href="http://draw.tackleimpossible.com/")
+              | http://draw.tackleimpossible.com/   
+      .content3#about
+        h1
+          | About
+        p 
+          | Creative Developer and lover of making cool shit. I've worked on professional projects for clients such as <span>Nike</span>, Anheuser-Busch, Converse and <span>Disney.</span> <br><br> I love collaboration, solving problems and beautiful design. I wake up everyday excited to code and <span> leave campsites better than I found them.</span>
+        .back
+          i.fa.fa-arrow-up 
+          
+
+        
+  
+    
+include includes/_footer.jade
+    
