@@ -280,6 +280,9 @@ html, body {
         @media screen and (max-width: 620px) {
           .wrapper .content1 .creative h2 {
             font-size: 1.2em; } }
+        @media screen and (max-width: 480px) {
+          .wrapper .content1 .creative h2 {
+            font-size: 1em; } }
       .wrapper .content1 .creative p {
         color: #F5F5F5;
         padding: 0 20%;
@@ -343,6 +346,9 @@ html, body {
       @media screen and (max-width: 620px) {
         .wrapper .coder h2 {
           font-size: 1.2em; } }
+      @media screen and (max-width: 480px) {
+        .wrapper .coder h2 {
+          font-size: 1em; } }
     .wrapper .coder p {
       padding: 0 20%;
       margin-top: 21em; }
@@ -373,9 +379,9 @@ html, body {
     height: 45em;
     background: #F5F5F5;
     width: 100%;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    transition: 0.3s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s;
     max-width: 65%;
     margin-left: auto;
     margin-right: auto; }
