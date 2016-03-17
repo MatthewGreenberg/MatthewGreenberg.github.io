@@ -308,16 +308,80 @@ html, body
       position: relative
       +transition(0.2s)
       overflow: hidden
-      +media(min-width 600px)
+
+      &.active
+        position: fixed
+        left: 0
+        top: 0
+        height: 100%
+        width: 100%
+        z-index: 100
+        margin: 0
+        .exit-project
+          display: block
+          position: fixed
+          left: 80%
+          top: 51%
+          z-index: 1000
+          font-size: 4em
+          color: #333
+          +transition(0.3s)
+          &:hover
+            +transform(scale(1.1))
+        .overlay
+          display: none
+        .image
+          height: 50%
+        .title
+          left: 50%
+          +transform(translateX(-50%))
+          font-size: 3em
+
+        .responsibilities
+          margin: 0
+          margin-top: 10em
+          left: 50%
+          +transform(translateX(-50%))
+
+        .hr
+          display: block
+          hr
+            margin-top: 1em
+            height: 6px
+            background: #555
+            border: none
+            box-shadow: 1px 1px 3px gray
+
+
+        .description
+          display: block
+          position: relative
+          margin-top: 12em
+          padding: 0 20%
+          color: #555
+          line-height: 1.5em
+
+
+
+      &.hidden
+        display: none
+      +media(min-width 600px max-width 3000px)
         +span-columns(6)
-        +omega(2n)
+        +omega(3n)
         margin-top: 2em
       +media(max-width 600px)
         +span-columns(12)
         +omega(n)
         margin-top: 1em
 
-
+      .url
+        display: none
+      .exit-project
+        display: none
+      .hr
+        display: none
+      .description
+        display: none
       .image
         width: 97%
         margin-top: 0px
@@ -327,26 +391,36 @@ html, body
         top: 1%
         +transform(translateX(-50%))
         z-index: 500
-        background: url(../images/tackleimpossible.png) no-repeat top center
-        background-size: cover
         border-radius: 5px
+      &:hover
 
-      &:nth-child(2)
+        .overlay
+          +transition(0.2s)
+          position: absolute
+          width: 100%
+          height: 100%
+          border-radius: 5px
+          background: rgba(255,255,255,0.2)
+          z-index: 1000
+        i
+          opacity: 1
+
+      &#tackle-impossible
+        .image
+          background: url(../images/tackleimpossible.png) no-repeat top center
+          background-size: cover
+
+      &#yo-gotti
         .image
           background: url(../images/yo-gotti.png) no-repeat top center
           background-size: cover
-
-      &:nth-child(4)
-        .image
-          background: url(../images/yo-gotti.png) no-repeat top center
-          background-size: cover
-      &:nth-child(5)
+      &#cxh
         .image
           background: url(../images/cxh.png) no-repeat center center
           background-size: cover
-      &:nth-child(6)
+      &#nike
         .image
-          background: url(../images/nike.png) no-repeat center center
+          background: url(../images/nike.png) no-repeat top center
           background-size: cover
 
 
@@ -370,24 +444,11 @@ html, body
         +transition(0.2s)
         font-style: italic
 
-      i
-        color: rgba(255,255,255,0.8)
-        font-size: 3em
-        position: absolute
-        left: 50%
-        top: 50%
-        +transform(translateX(-50%) translateY(-50%))
-        opacity: 1
-        +transition(0.2s)
-  &:hover
-    .overlay
-      position: fixed
-      width: 100%
-      height: 100%
-      background: rgba(0,0,0,0.8)
-      z-index: 1000
-    i
-      opacity: 1
+
+
+
+
+
 
 
 

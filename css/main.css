@@ -438,7 +438,70 @@ html, body {
       -moz-transition: 0.2s;
       transition: 0.2s;
       overflow: hidden; }
-      @media screen and (min-width: 600px) {
+      .wrapper .content2 .project.active {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+        margin: 0; }
+        .wrapper .content2 .project.active .exit-project {
+          display: block;
+          position: fixed;
+          left: 80%;
+          top: 51%;
+          z-index: 1000;
+          font-size: 4em;
+          color: #333;
+          -webkit-transition: 0.3s;
+          -moz-transition: 0.3s;
+          transition: 0.3s; }
+          .wrapper .content2 .project.active .exit-project:hover {
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            transform: scale(1.1); }
+        .wrapper .content2 .project.active .overlay {
+          display: none; }
+        .wrapper .content2 .project.active .image {
+          height: 50%; }
+        .wrapper .content2 .project.active .title {
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -moz-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          -o-transform: translateX(-50%);
+          transform: translateX(-50%);
+          font-size: 3em; }
+        .wrapper .content2 .project.active .responsibilities {
+          margin: 0;
+          margin-top: 10em;
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -moz-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          -o-transform: translateX(-50%);
+          transform: translateX(-50%); }
+        .wrapper .content2 .project.active .hr {
+          display: block; }
+          .wrapper .content2 .project.active .hr hr {
+            margin-top: 1em;
+            height: 6px;
+            background: #555;
+            border: none;
+            box-shadow: 1px 1px 3px gray; }
+        .wrapper .content2 .project.active .description {
+          display: block;
+          position: relative;
+          margin-top: 12em;
+          padding: 0 20%;
+          color: #555;
+          line-height: 1.5em; }
+      .wrapper .content2 .project.hidden {
+        display: none; }
+      @media screen and (min-width: 600px) and (max-width: 3000px) {
         .wrapper .content2 .project {
           float: left;
           display: block;
@@ -447,9 +510,9 @@ html, body {
           margin-top: 2em; }
           .wrapper .content2 .project:last-child {
             margin-right: 0; }
-          .wrapper .content2 .project:nth-child(2n) {
+          .wrapper .content2 .project:nth-child(3n) {
             margin-right: 0; }
-          .wrapper .content2 .project:nth-child(2n+1) {
+          .wrapper .content2 .project:nth-child(3n+1) {
             clear: left; } }
       @media screen and (max-width: 600px) {
         .wrapper .content2 .project {
@@ -462,6 +525,14 @@ html, body {
             margin-right: 0; }
           .wrapper .content2 .project:nth-child(n) {
             margin-right: 0; } }
+      .wrapper .content2 .project .url {
+        display: none; }
+      .wrapper .content2 .project .exit-project {
+        display: none; }
+      .wrapper .content2 .project .hr {
+        display: none; }
+      .wrapper .content2 .project .description {
+        display: none; }
       .wrapper .content2 .project .image {
         width: 97%;
         margin-top: 0px;
@@ -475,20 +546,30 @@ html, body {
         -o-transform: translateX(-50%);
         transform: translateX(-50%);
         z-index: 500;
-        background: url(../images/tackleimpossible.png) no-repeat top center;
-        background-size: cover;
         border-radius: 5px; }
-      .wrapper .content2 .project:nth-child(2) .image {
+      .wrapper .content2 .project:hover .overlay {
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        transition: 0.2s;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.2);
+        z-index: 1000; }
+      .wrapper .content2 .project:hover i {
+        opacity: 1; }
+      .wrapper .content2 .project#tackle-impossible .image {
+        background: url(../images/tackleimpossible.png) no-repeat top center;
+        background-size: cover; }
+      .wrapper .content2 .project#yo-gotti .image {
         background: url(../images/yo-gotti.png) no-repeat top center;
         background-size: cover; }
-      .wrapper .content2 .project:nth-child(4) .image {
-        background: url(../images/yo-gotti.png) no-repeat top center;
-        background-size: cover; }
-      .wrapper .content2 .project:nth-child(5) .image {
+      .wrapper .content2 .project#cxh .image {
         background: url(../images/cxh.png) no-repeat center center;
         background-size: cover; }
-      .wrapper .content2 .project:nth-child(6) .image {
-        background: url(../images/nike.png) no-repeat center center;
+      .wrapper .content2 .project#nike .image {
+        background: url(../images/nike.png) no-repeat top center;
         background-size: cover; }
       .wrapper .content2 .project .title {
         position: absolute;
@@ -512,29 +593,6 @@ html, body {
         -moz-transition: 0.2s;
         transition: 0.2s;
         font-style: italic; }
-      .wrapper .content2 .project i {
-        color: rgba(255, 255, 255, 0.8);
-        font-size: 3em;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -o-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-        opacity: 1;
-        -webkit-transition: 0.2s;
-        -moz-transition: 0.2s;
-        transition: 0.2s; }
-  .wrapper:hover .overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 1000; }
-  .wrapper:hover i {
-    opacity: 1; }
   .wrapper .content3 {
     height: 40em;
     background: #18BC9C;
