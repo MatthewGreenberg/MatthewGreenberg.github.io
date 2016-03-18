@@ -13,7 +13,13 @@ html {
     font-size: 3em;
     position: relative;
     left: 2em;
-    top: 1em; }
+    top: 1em;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s; }
+    @media screen and (max-width: 500px) {
+      #nav i {
+        left: 1em; } }
   #nav .nav-overlay {
     position: fixed;
     top: 0;
