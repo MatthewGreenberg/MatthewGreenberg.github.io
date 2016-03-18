@@ -19,9 +19,16 @@ html {
     font-size: 1.5em;
     padding-top: 0.75em;
     font-family: Montserrat; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-height: 950px) {
       #footer h1 {
-        padding-top: 0em; } }
+        padding-top: 0em;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%); } }
   #footer .social {
     position: absolute;
     left: 50%;
@@ -31,6 +38,9 @@ html {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
     font-family: Montserrat; }
+    @media screen and (max-height: 950px) {
+      #footer .social {
+        margin-top: 4em; } }
     #footer .social i {
       margin: 0 0.8em;
       font-size: 1.3em;

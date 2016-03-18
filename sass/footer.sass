@@ -21,14 +21,19 @@ $green: #18BC9C
     font-size: 1.5em
     padding-top: 0.75em
     font-family: Montserrat
-    +media(max-width 900px)
+    +media(max-height 950px)
       padding-top: 0em
+      position: absolute
+      left: 50%
+      +transform(translateX(-50%))
 
   .social
     position: absolute
     left: 50%
     +transform(translateX(-50%))
     font-family: Montserrat
+    +media(max-height 950px)
+      margin-top: 4em
     i
       margin: 0 0.8em
       font-size: 1.3em
