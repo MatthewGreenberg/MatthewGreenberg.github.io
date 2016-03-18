@@ -1,6 +1,23 @@
 doctype html
 html(lang="en")
   head
+    link(rel='apple-touch-icon', sizes='57x57', href='images/favicons/apple-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='60x60', href='images/favicons/apple-icon-60x60.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='images/favicons/apple-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='76x76', href='images/favicons/apple-icon-76x76.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='images/favicons/apple-icon-114x114.png')
+    link(rel='apple-touch-icon', sizes='120x120', href='images/favicons/apple-icon-120x120.png')
+    link(rel='apple-touch-icon', sizes='144x144', href='images/favicons/apple-icon-144x144.png')
+    link(rel='apple-touch-icon', sizes='152x152', href='images/favicons/apple-icon-152x152.png')
+    link(rel='apple-touch-icon', sizes='180x180', href='images/favicons/apple-icon-180x180.png')
+    link(rel='icon', type='image/png', sizes='192x192', href='images/favicons/android-icon-192x192.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='images/favicons/favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='96x96', href='images/favicons/favicon-96x96.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='images/favicons/favicon-16x16.png')
+    link(rel='manifest', href='/manifest.json')
+    meta(name='msapplication-TileColor', content='#ffffff')
+    meta(name='msapplication-TileImage', content='/ms-icon-144x144.png')
+    meta(name='theme-color', content='#ffffff')
     script(type="text/javascript" src="/coffeescripts/app.js")
     link(rel="stylesheet" type="text/css" href="/css/main.css")
     link( rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat")  
@@ -61,7 +78,7 @@ html(lang="en")
           .description 
             | Tackle Impossible is a project for Anheuser-Busch's campaign against drunk driving.  Within this React.js build, I built out components for the client-facing app and admin pages. I also created routes to register users and save their projects within the project's Mongo DB database.  
           .url
-            a(href="http://draw.tackleimpossible.com")
+            a(href="http://draw.tackleimpossible.com" target="_blank")
               | Tackle Impossible
         .project#yo-gotti
           .overlay
@@ -77,7 +94,7 @@ html(lang="en")
           .description 
             | The Art of the Hustle is an interactive board game created for rapper Yo Gotti. I contributed heavily to the Front-End development as well as the Object Oriented JS structure running the game and leaderboard logic.
           .url
-            a(href="http://theartofhustlegame.com")
+            a(href="http://theartofhustlegame.com" target="_blank")
               | The Art of the Hustle 
         .project#cxh
           .overlay
@@ -93,7 +110,7 @@ html(lang="en")
           .description 
             | Chloe and Halle are a music duo signed to Beyonce's label, Parkwood Entertainment. For this project, I designed aspects of the site and built out its front end functionality.
           .url
-            a(href="http://chloeandhalle.com")
+            a(href="http://chloeandhalle.com" target="_blank")
               | Chloe X Halle
         .project#nike
           .overlay
@@ -109,7 +126,7 @@ html(lang="en")
           .description 
             | To promote Nike's new Tech Knit line of clothing, I helped build an interactice site which displays meta-data information about two individuals' day wearing the clothing.  For the site, I used D3.js to visualize heart-rate information. I also developed an algorithm which translates temperature into an interactive color gradient.  
           .url
-            a(href="http://niketechknit.com/")
+            a(href="http://niketechknit.com/" target="_blank")
               | Nike Tech Knit
       .content3#about
         h1

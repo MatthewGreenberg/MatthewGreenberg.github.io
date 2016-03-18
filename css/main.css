@@ -322,7 +322,7 @@ html, body {
       @media screen and (max-width: 900px) {
         .wrapper .coder i {
           font-size: 3em;
-          top: 4.2em; } }
+          top: 4em; } }
     .wrapper .coder h2 {
       position: absolute;
       font-size: 3em;
