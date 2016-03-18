@@ -475,9 +475,18 @@ html, body {
           -o-transform: translateX(-50%);
           transform: translateX(-50%);
           font-size: 3em; }
+          @media screen and (max-width: 800px) {
+            .wrapper .content2 .project.active .title {
+              font-size: 2em;
+              margin-top: 2em; } }
+  @media screen and (max-width: 800px) and (max-width: 550px) {
+    .wrapper .content2 .project.active .title {
+      font-size: 1.5em;
+      margin-top: 3em; } }
+
         .wrapper .content2 .project.active .responsibilities {
           margin: 0;
-          margin-top: 10em;
+          margin-top: 8em;
           left: 50%;
           -webkit-transform: translateX(-50%);
           -moz-transform: translateX(-50%);
@@ -492,13 +501,25 @@ html, body {
             background: #555;
             border: none;
             box-shadow: 1px 1px 3px gray; }
+        .wrapper .content2 .project.active .url {
+          display: block;
+          text-align: center;
+          margin-top: 0.5em; }
+          .wrapper .content2 .project.active .url a {
+            text-decoration: none; }
+            .wrapper .content2 .project.active .url a:hover {
+              color: gray; }
         .wrapper .content2 .project.active .description {
           display: block;
           position: relative;
-          margin-top: 12em;
+          margin-top: 9em;
           padding: 0 20%;
           color: #555;
           line-height: 1.5em; }
+          @media screen and (max-width: 800px) {
+            .wrapper .content2 .project.active .description {
+              font-size: 0.9em;
+              margin-top: 10em; } }
       .wrapper .content2 .project.hidden {
         display: none; }
       @media screen and (min-width: 600px) and (max-width: 3000px) {

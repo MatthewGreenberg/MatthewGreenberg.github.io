@@ -336,10 +336,16 @@ html, body
           left: 50%
           +transform(translateX(-50%))
           font-size: 3em
+          +media(max-width 800px)
+            font-size: 2em
+            margin-top: 2em
+            +media(max-width 550px)
+              font-size: 1.5em
+              margin-top: 3em
 
         .responsibilities
           margin: 0
-          margin-top: 10em
+          margin-top: 8em
           left: 50%
           +transform(translateX(-50%))
 
@@ -352,23 +358,35 @@ html, body
             border: none
             box-shadow: 1px 1px 3px gray
 
-
+        .url
+          display: block
+          text-align: center
+          margin-top: 0.5em
+          a
+            text-decoration: none
+            &:hover
+              color: gray
         .description
           display: block
           position: relative
-          margin-top: 12em
+          margin-top: 9em
           padding: 0 20%
           color: #555
           line-height: 1.5em
+          +media(max-width 800px)
+            font-size: 0.9em
+            margin-top: 10em
 
 
 
       &.hidden
         display: none
+
       +media(min-width 600px max-width 3000px)
         +span-columns(6)
         +omega(3n)
         margin-top: 2em
+
       +media(max-width 600px)
         +span-columns(12)
         +omega(n)
