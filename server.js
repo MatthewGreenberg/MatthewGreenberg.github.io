@@ -1,0 +1,1 @@
+(function(){var e,s,r,n,i;s=require("express"),n=require("serve-static"),e=s(),e.use(n(__dirname+"/",{index:["index.html"]})),r=process.env.PORT||5e3,i=e.listen(r,function(){var e;return e=i.address().address,console.log("Node app listening at http://%s:%s",e,r)})}).call(this);
