@@ -8,15 +8,6 @@ $ ->
     $('.project').removeClass 'active hidden'
     location.reload()
 
-    $('.project').each (p, i) ->
-      console.log $(i).attr 'class'
-    # project = $(@).closest('.project')
-    # console.log project.attr 'class'
-    #
-    # project.removeClass("active")
-    # console.log $(project).attr 'class'
-    # project.siblings(".project").removeClass("hidden")
-
   $('.recent-projects').click ->
     $('html, body').animate { scrollTop: $('#recent-projects').offset().top }, 500
     return
