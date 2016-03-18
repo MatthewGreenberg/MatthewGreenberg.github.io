@@ -1,13 +1,13 @@
 {
-  "name": "gulp-frontend",
-  "description": "Gulp frontend workflow.",
-  "author": "Ron Gierlach <ron@theuprisingcreative.com> (http://youfoundron.com)",
+  "name": "Matt Greenberg",
+  "description": "Personal Portfolio.",
+  "author": "Matt Greenberg",
   "version": "0.0.0",
   "main": "",
   "dependencies": {
     "body-parser": "^1.13.3",
     "errorhandler": "^1.4.2",
-    "express": "^4.13.3",
+    "express": "^4.13.3"
   },
   "devDependencies": {
     "coffee-script": "^1.9.3",
@@ -19,21 +19,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rongierlach/gulp-frontend.git"
+    "url": "https://github.com/MatthewGreenberg/MatthewGreenberg.github.io"
   },
   "keywords": [
-    "gulp-frontend",
-    "gulp",
-    "frontend",
-    "coffee",
+    "front-end",
+    "matt",
+    "greenberg",
+    "javascript",
     "jade",
-    "boilerplate",
+    "coffeescript",
     "front",
     "end"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rongierlach/gulp-frontend/issues"
-  },
-  "homepage": "https://github.com/rongierlach/gulp-frontend"
+  "license": "MIT"
 }
