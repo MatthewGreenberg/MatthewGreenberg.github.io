@@ -19,6 +19,9 @@ html {
     font-size: 1.5em;
     padding-top: 0.75em;
     font-family: Montserrat; }
+    @media screen and (max-width: 900px) {
+      #footer h1 {
+        padding-top: 0em; } }
   #footer .social {
     position: absolute;
     left: 50%;
