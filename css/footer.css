@@ -29,6 +29,9 @@ html {
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
         transform: translateX(-50%); } }
+    @media screen and (max-width: 600px) {
+      #footer h1 {
+        font-size: 1em; } }
   #footer .social {
     position: absolute;
     left: 50%;
@@ -57,3 +60,6 @@ html {
         -o-transform: rotate(30deg);
         transform: rotate(30deg);
         color: #18BC9C; }
+      @media screen and (max-width: 600px) {
+        #footer .social i {
+          font-size: 1em; } }

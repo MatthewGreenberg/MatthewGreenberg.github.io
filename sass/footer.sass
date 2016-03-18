@@ -26,6 +26,8 @@ $green: #18BC9C
       position: absolute
       left: 50%
       +transform(translateX(-50%))
+    +media(max-width 600px)
+      font-size: 1em
 
   .social
     position: absolute
@@ -44,3 +46,5 @@ $green: #18BC9C
       &:hover
         +transform(rotate(30deg))
         color: $green
+      +media(max-width 600px)
+        font-size: 1em
