@@ -80,6 +80,42 @@ html, body {
   font-family: Montserrat;
   background: #F5F5F5; }
 
+.left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: black;
+  z-index: 1000000; }
+
+.right {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  background: #18BC9C;
+  z-index: 1000000;
+  float: left;
+  opacity: 1; }
+
+.animate {
+  background: url(../images/logo.png) no-repeat center center;
+  background-size: cover;
+  width: 20em;
+  height: 20em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 10000000;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0; }
+
 .wrapper {
   min-height: 100%;
   margin-bottom: -142px; }
@@ -271,7 +307,7 @@ html, body {
         -ms-transform: translateX(-50%) translateY(-50%);
         -o-transform: translateX(-50%) translateY(-50%);
         transform: translateX(-50%) translateY(-50%); }
-        @media screen and (max-width: 1200px) {
+        @media screen and (max-width: 1250px) {
           .wrapper .content1 .creative h2 {
             font-size: 2.2em; } }
         @media screen and (max-width: 900px) {
@@ -337,7 +373,7 @@ html, body {
       -ms-transform: translateX(-50%) translateY(-50%);
       -o-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%); }
-      @media screen and (max-width: 1200px) {
+      @media screen and (max-width: 1250px) {
         .wrapper .coder h2 {
           font-size: 2.2em; } }
       @media screen and (max-width: 900px) {

@@ -29,7 +29,35 @@ html, body
   height: 100%
   font-family: Montserrat
   background: $white
-
+.left
+  position: fixed
+  top: 0
+  left: 0
+  height: 100%
+  width: 50%
+  background: black
+  z-index: 1000000
+.right
+  position: absolute
+  top: 0
+  left: 50%
+  height: 100%
+  width: 50%
+  background: $green
+  z-index: 1000000
+  float: left
+  opacity: 1
+.animate
+  background: url(../images/logo.png) no-repeat center center
+  background-size: cover
+  width: 20em
+  height: 20em
+  position: absolute
+  left: 50%
+  top: 50%
+  z-index: 10000000
+  +transform(translateX(-50%) translateY(-50%))
+  opacity: 0
 .wrapper
   min-height: 100%
   margin-bottom: -142px
@@ -189,7 +217,7 @@ html, body
         top: 40%
         +transition(0.3s)
         +transform(translateX(-50%) translateY(-50%))
-        +media(max-width 1200px)
+        +media(max-width 1250px)
           font-size: 2.2em
         +media(max-width 900px)
           font-size: 1.5em
@@ -240,7 +268,7 @@ html, body
       top: 40%
       +transition(0.3s)
       +transform(translateX(-50%) translateY(-50%))
-      +media(max-width 1200px)
+      +media(max-width 1250px)
         font-size: 2.2em
       +media(max-width 900px)
         font-size: 1.5em
