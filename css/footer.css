@@ -67,13 +67,3 @@ html {
       @media screen and (max-width: 600px) {
         #footer .social i {
           font-size: 1em; } }
-  #footer .email {
-    position: absolute;
-    top: 25%;
-    left: 20%; }
-    @media screen and (max-width: 700px) {
-      #footer .email {
-        left: 5%; } }
-    #footer .email i {
-      font-size: 3em;
-      color: black; }
