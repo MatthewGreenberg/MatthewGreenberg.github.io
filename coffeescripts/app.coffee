@@ -65,6 +65,7 @@ $ ->
     $('html, body').animate { scrollTop: $('.logo').offset().top }, 500
     return
 
-  if window.open
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+    return
+  else
     intro()
-    window.open = !window.open
