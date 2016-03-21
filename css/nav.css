@@ -19,7 +19,7 @@ html {
     transition: 0.3s; }
     @media screen and (max-width: 500px) {
       #nav i {
-        left: 1em; } }
+        left: 0.5em; } }
   #nav .nav-overlay {
     position: fixed;
     top: 0;
