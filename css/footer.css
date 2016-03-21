@@ -13,6 +13,10 @@ html {
   height: 15vh;
   background: #F5F5F5;
   width: 100%; }
+  @media screen and (max-device-width: 800px) {
+    #footer {
+      bottom: -8%;
+      height: 17vh; } }
   #footer h1 {
     color: black;
     text-align: center;
