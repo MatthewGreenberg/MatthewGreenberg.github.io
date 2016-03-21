@@ -12,14 +12,14 @@ html {
   #nav i {
     font-size: 3em;
     position: relative;
-    left: 2em;
+    margin-left: 2em;
     top: 1em;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     transition: 0.3s; }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 600px) {
       #nav i {
-        left: 0.5em; } }
+        margin-left: 0.5em; } }
   #nav .nav-overlay {
     position: fixed;
     top: 0;
