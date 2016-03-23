@@ -3885,6 +3885,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/brassrings.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173698,
+		"inputAbbreviatedPath": "\/images\/brassrings.jpg",
+		"outputAbbreviatedPath": "\/images\/brassrings.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/cxh.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4193,6 +4204,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/goldballs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143614,
+		"inputAbbreviatedPath": "\/images\/goldballs.jpg",
+		"outputAbbreviatedPath": "\/images\/goldballs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4200,6 +4222,17 @@
 		"initialSize": 115247,
 		"inputAbbreviatedPath": "\/images\/logo.png",
 		"outputAbbreviatedPath": "\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/low-poly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116536,
+		"inputAbbreviatedPath": "\/images\/low-poly.jpg",
+		"outputAbbreviatedPath": "\/images\/low-poly.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

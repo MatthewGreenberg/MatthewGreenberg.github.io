@@ -147,6 +147,15 @@ html, body {
     .portfolio .image:nth-child(6) {
       background: url(../images/tape-final.jpg) no-repeat center center;
       background-size: cover; }
+    .portfolio .image:nth-child(7) {
+      background: url(../images/low-poly.jpg) no-repeat center center;
+      background-size: cover; }
+    .portfolio .image:nth-child(8) {
+      background: url(../images/goldballs.jpg) no-repeat center center;
+      background-size: cover; }
+    .portfolio .image:nth-child(9) {
+      background: url(../images/brassrings.jpg) no-repeat center center;
+      background-size: cover; }
     @media screen and (min-width: 950px) {
       .portfolio .image {
         float: left;
