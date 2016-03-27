@@ -1,5 +1,6 @@
 #@codekit-prepend "../bower_components/jquery/dist/jquery.js"
 tl = new TimelineLite()
+new WOW().init()
 window.open = true
 intro = ->
   tl.to ".animate", 1.7,

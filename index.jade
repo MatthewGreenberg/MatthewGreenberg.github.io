@@ -18,10 +18,11 @@ html(lang="en")
     meta(name='msapplication-TileColor', content='#ffffff')
     meta(name='msapplication-TileImage', content='/ms-icon-144x144.png')
     meta(name='theme-color', content='#ffffff')
-    script(type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js")  
+    script(type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js")
+    script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js")      
     script(type="text/javascript" src="/coffeescripts/app.js")
     link(rel="stylesheet" type="text/css" href="/css/main.css")
-    link(rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat")  
+    link(rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat")  
     title
       | Matt Greenberg
   body
@@ -68,7 +69,7 @@ html(lang="en")
         h3 
           |With The Uprising Creative
         
-        .project#tackle-impossible
+        .project#tackle-impossible.wow.slideInLeft
           .overlay
           .exit-project
             | &times;
@@ -84,7 +85,7 @@ html(lang="en")
           .url
             a(href="http://draw.tackleimpossible.com" target="_blank")
               | Tackle Impossible
-        .project#yo-gotti
+        .project#yo-gotti.wow.slideInRight
           .overlay
           .exit-project
             | &times;
@@ -100,7 +101,7 @@ html(lang="en")
           .url
             a(href="http://theartofhustlegame.com" target="_blank")
               | The Art of the Hustle 
-        .project#cxh
+        .project#cxh.wow.slideInLeft
           .overlay
           .exit-project
             | &times;
@@ -116,7 +117,7 @@ html(lang="en")
           .url
             a(href="http://chloeandhalle.com" target="_blank")
               | Chloe X Halle
-        .project#nike
+        .project#nike.wow.slideInRight
           .overlay
           .exit-project
             | &times;
@@ -132,7 +133,7 @@ html(lang="en")
           .url
             a(href="http://niketechknit.com/" target="_blank")
               | Nike Tech Knit
-      .content3#about
+      .content3#about.wow.fadeInUp
         h1
           | About
         p 
