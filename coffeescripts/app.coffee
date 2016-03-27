@@ -1,6 +1,9 @@
 #@codekit-prepend "../bower_components/jquery/dist/jquery.js"
 tl = new TimelineLite()
-new WOW().init()
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+  console.log("")
+else
+  new WOW().init()
 window.open = true
 intro = ->
   tl.to ".animate", 1.7,
@@ -48,6 +51,7 @@ phoneIntro = ->
 
 
 $ ->
+  $(this).scrollTop(0)
   $(".project").click ->
     $(@).addClass("active")
     $(@).siblings(".project").addClass("hidden")
